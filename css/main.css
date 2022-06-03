@@ -141,6 +141,10 @@ footer{
   width: 165px;
 }
 
+.social:hover {
+  filter: invert(1);
+}
+
 
 @media (max-width: 500px) {
 
@@ -157,6 +161,7 @@ footer{
   #main-page{
     height: 700px;
   }
+
   .main-page_img{
     width: 50%;
   }
