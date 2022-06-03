@@ -24,6 +24,11 @@ body{
   font-weight: 550;
 }
 
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 header, footer{
   height: 70px;
   width: 100%;
@@ -71,13 +76,11 @@ section{
   -moz-background-size: cover; /* Firefox 3.6+ */
   -o-background-size: cover; /* Opera 9.6+ */
   background-size: cover;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.main-page--text{
-  font-size: 65px;
-  text-align: left;
-  width: 925px;
+.main-page_img{
+  width: 25%;
 }
 
 #programs{
@@ -150,12 +153,8 @@ footer{
     width: 0;
   }
 
-
-  .main-page--text{
-    font-size: 35px;
-    text-align: left;
-    width: 315px;
-    font-weight: 600;
+  .main-page_img{
+    width: 50%;
   }
 
   #programs{
@@ -193,7 +192,6 @@ footer{
   .footer_item--tel{
     font-weight: 500;
     width: 160px;
-    margin: 40px;
   }
 
   .footer_item--img{
