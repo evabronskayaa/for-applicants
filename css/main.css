@@ -43,6 +43,7 @@ header{
 }
 .header_item--iit-text{
   margin-right: 130px;
+  width: 110px;
 }
 
 .header_item{
@@ -151,6 +152,7 @@ footer{
 
   .header_item--iit-text{
     width: 0;
+    margin-right: 80px;
   }
 
   .main-page_img{
@@ -187,6 +189,7 @@ footer{
 
   .footer_item--info{
     margin: 22px;
+    width: 120px
   }
 
   .footer_item--tel{
@@ -200,6 +203,13 @@ footer{
 
   .footer_item--social{
     width: auto;
+  }
+
+}
+
+@media (max-width: 370px) {
+  header{
+    zoom: 90%;
   }
 
 }
