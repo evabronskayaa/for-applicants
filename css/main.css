@@ -67,8 +67,6 @@ section{
   align-items: center;
 }
 
-
-
 #main-page{
   background-repeat: no-repeat;
   background-image: url(https://media2.giphy.com/media/fyCzfpyL5ENXRzm6Qf/giphy.gif?cid=ecf05e479lhfe4gn2d4otuoq6ostv2aaelxzw67ol8lhrkb6&rid=giphy.gif&ct=g);
@@ -145,6 +143,7 @@ footer{
 
 
 @media (max-width: 500px) {
+
   .header_item{
     font-weight: 500;
     font-size: 13px;
@@ -155,6 +154,9 @@ footer{
     margin-right: 80px;
   }
 
+  #main-page{
+    height: 700px;
+  }
   .main-page_img{
     width: 50%;
   }
@@ -222,7 +224,7 @@ footer{
     font-weight: 500;
   }
   #main-page{
-    height: 480px;
+    height: 700px;
   }
 
   .program{
