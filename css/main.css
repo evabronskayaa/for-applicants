@@ -108,6 +108,10 @@ section{
   font-weight: 600;
 }
 
+.button-more:hover {
+  filter: invert(1);
+}
+
 footer{
   height: 150px;
   width: 100%;
@@ -132,18 +136,49 @@ footer{
   width: 165px;
 }
 
-.social:hover {
-  filter: invert(1);
-
+.social:hover{
+  filter: opacity(50%);
 }
+
 
 @media (max-width: 715px) {
   footer{
     height: 300px;
   }
-
 }
 
+@media (max-width: 360px) {
+  body{
+    zoom: 95%;
+  }
+}
+
+@media (max-width: 300px) {
+  body{
+    zoom: 90%;
+  }
+}
+
+@media (max-width: 300px) {
+  body{
+    zoom: 85%;
+  }
+  .footer_item {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 280px) {
+  body{
+    zoom: 80%;
+  }
+}
+
+@media (max-width: 250px) {
+  body{
+    zoom: 75%;
+  }
+}
 
 @media (max-width: 500px) {
 
