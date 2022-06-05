@@ -18,7 +18,6 @@ a{
 }
 
 header, footer{
-  height: 70px;
   width: 100%;
   background: black;
   display: flex;
@@ -27,6 +26,7 @@ header, footer{
 
 }
 header{
+  height: 70px;
   position: fixed;
 }
 .header_item--iit-text{
