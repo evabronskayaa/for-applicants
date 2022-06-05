@@ -35,6 +35,7 @@ header{
 }
 
 .header_item{
+  text-transform: uppercase;
   font-size: 15px;
   line-height: 1.2;
   margin: 10px;
@@ -140,6 +141,9 @@ footer{
   filter: opacity(50%);
 }
 
+.header_item:hover{
+  filter: opacity(50%);
+}
 
 @media (max-width: 715px) {
   footer{
@@ -147,19 +151,13 @@ footer{
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
   body{
     zoom: 95%;
   }
 }
 
-@media (max-width: 300px) {
-  body{
-    zoom: 90%;
-  }
-}
-
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   body{
     zoom: 85%;
   }
@@ -180,7 +178,7 @@ footer{
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 
   .header_item{
     font-weight: 500;
