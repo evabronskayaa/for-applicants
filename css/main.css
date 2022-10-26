@@ -10,6 +10,7 @@ body{
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
   font-weight: 550;
+  display: block;
 }
 
 a{
@@ -48,16 +49,16 @@ header{
 
 section{
   background: #0D0D0D;
-  height: 800px;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 #main-page{
   background-repeat: no-repeat;
-  background-image: url(https://media2.giphy.com/media/fyCzfpyL5ENXRzm6Qf/giphy.gif?cid=ecf05e479lhfe4gn2d4otuoq6ostv2aaelxzw67ol8lhrkb6&rid=giphy.gif&ct=g);
+  background-image: url(https://media3.giphy.com/media/1htfNaFkezjwTFFuRV/giphy.gif?cid=ecf05e47wj1m51kgdhkf1hz7o1f53azm07tnxjysnxtz6n33&rid=giphy.gif&ct=g);
   margin: 0; /* Убираем отступы */
   -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
   -moz-background-size: cover; /* Firefox 3.6+ */
@@ -66,18 +67,20 @@ section{
   justify-content: center;
 }
 .main-page_item{
-  width: 25%
+  width: 30%;
+  text-align: center;
 }
 
 .main-page_img{
-  width: 100%;
+  width: 80%;
+  margin: 200px 0;
 }
 
 #programs{
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  height: 700px;
+  /*height: 700px;*/
 }
 
 .program{
@@ -87,6 +90,7 @@ section{
   justify-content: center;
   flex-direction: column;
   margin: 50px;
+  padding: 3%;
 }
 
 .program_title{
@@ -190,15 +194,11 @@ footer{
   }
 
   #main-page{
-    height: 700px;
+    /* height: 700px;*/
   }
 
   .main-page_item{
     width: 50%;
-  }
-
-  #programs{
-    height: 1000px;
   }
 
   .program{
@@ -260,7 +260,7 @@ footer{
     font-weight: 500;
   }
   #main-page{
-    height: 700px;
+    /*height: 700px;*/
   }
 
   .program{
