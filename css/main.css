@@ -33,6 +33,7 @@ header{
 .header__link--iit-text{
   margin-right: 130px;
   width: 110px;
+
 }
 
 .header__link{
@@ -40,6 +41,7 @@ header{
   line-height: 1.2;
   margin: 10px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .logo{
