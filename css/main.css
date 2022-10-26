@@ -58,7 +58,7 @@ section{
 
 #main-page{
   background-repeat: no-repeat;
-  background-image: url(https://media3.giphy.com/media/1htfNaFkezjwTFFuRV/giphy.gif?cid=ecf05e47wj1m51kgdhkf1hz7o1f53azm07tnxjysnxtz6n33&rid=giphy.gif&ct=g);
+  background-image: url(https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif);
   margin: 0; /* Убираем отступы */
   -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
   -moz-background-size: cover; /* Firefox 3.6+ */
@@ -74,6 +74,7 @@ section{
 .main-page_img{
   width: 80%;
   margin: 200px 0;
+
 }
 
 #programs{
@@ -198,7 +199,7 @@ footer{
   }
 
   .main-page_item{
-    width: 50%;
+    width: 80%;
   }
 
   .program{
