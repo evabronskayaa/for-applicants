@@ -30,12 +30,12 @@ header{
   height: 70px;
   position: fixed;
 }
-.header_item--iit-text{
+.header__link--iit-text{
   margin-right: 130px;
   width: 110px;
 }
 
-.header_item{
+.header__link{
   font-size: 15px;
   line-height: 1.2;
   margin: 10px;
@@ -58,7 +58,7 @@ section{
 
 #main-page{
   background-repeat: no-repeat;
-  background-image: url(https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif);
+  background-image: url(https://media.giphy.com/media/XDd5b7NUbS1C1PMjUl/giphy.gif);
   margin: 0; /* Убираем отступы */
   -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
   -moz-background-size: cover; /* Firefox 3.6+ */
@@ -73,7 +73,7 @@ section{
 
 .main-page_img{
   width: 80%;
-  margin: 200px 0;
+  margin: 250px 0;
 
 }
 
@@ -94,11 +94,11 @@ section{
   padding: 3%;
 }
 
-.program_title{
+.program--title{
   text-transform: uppercase;
   font-weight: 500;
 }
-.program_text{
+.program--text{
   font-weight: 500;
   text-align: justify
 }
@@ -123,21 +123,21 @@ footer{
   flex-wrap: wrap
 }
 
-.footer_item{
+.footer{
   display: flex;
   flex-direction: row;
 }
 
-.footer_item--info{
+.footer--info{
   margin: 50px;
   font-weight: 500
 }
 
-.footer_item--img{
+.footer--img{
     margin: 15px;
 }
 
-.footer_item--social{
+.footer--social{
   width: 165px;
 }
 
@@ -145,7 +145,7 @@ footer{
   filter: opacity(50%);
 }
 
-.header_item:hover{
+.header__link:hover{
   filter: opacity(50%);
 }
 
@@ -165,7 +165,7 @@ footer{
   body{
     zoom: 85%;
   }
-  .footer_item {
+  .footer {
     flex-wrap: wrap;
   }
 }
@@ -184,12 +184,12 @@ footer{
 
 @media (max-width: 550px) {
 
-  .header_item{
+  .header__link{
     font-weight: 500;
     font-size: 13px;
   }
 
-  .header_item--iit-text{
+  .header__link--iit-text{
     width: 0;
     margin-right: 80px;
   }
@@ -208,11 +208,11 @@ footer{
 
   }
 
-  .program_title{
+  .program--title{
     font-size: larger;
   }
 
-  .program_text{
+  .program--text{
     font-size: medium;
     font-weight: 300;
   }
@@ -221,26 +221,26 @@ footer{
     height: 260px;
   }
 
-  .footer_item{
+  .footer{
     margin: 0;
     font-size: 14px;
   }
 
-  .footer_item--info{
+  .footer--info{
     margin: 22px;
     width: 120px
   }
 
-  .footer_item--tel{
+  .footer--tel{
     font-weight: 500;
     width: 160px;
   }
 
-  .footer_item--img{
+  .footer--img{
     margin: 15px;
   }
 
-  .footer_item--social{
+  .footer--social{
     width: auto;
   }
 
@@ -269,11 +269,11 @@ footer{
     width: 350px;
   }
 
-  .program_title{
+  .program--title{
     font-size: 16px;
   }
 
-  .program_text{
+  .program--text{
     font-size: small;
     font-weight: 300;
     height: 170px;
